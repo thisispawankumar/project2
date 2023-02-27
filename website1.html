@@ -1,0 +1,293 @@
+<html>
+
+<head><title>
+    Mainpage
+</title>
+<style>
+body {
+    height: 4350px;
+    background-color: #333;
+}
+
+
+.navi {
+    border: solid black;
+    height: 150px;
+    background-color: black;
+
+
+}
+
+#box1 {
+
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+#box2 {
+    display: inline-block;
+
+    width: 900px;
+    height: 50px;
+    margin: 10px;
+    position: relative;
+    bottom: 60px;
+
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    padding: 0px 25px 0px 25px;
+
+}
+
+.navi a:hover {
+    color:aliceblue;
+}
+
+.container {
+    height: 250px;
+
+
+}
+
+.movies {
+    height: 330px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+.movie2 {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    margin: 5px;
+
+}
+
+#navbar ul {
+    display: none;
+    background-color: #f90;
+    position: absolute;
+    top: 100%;
+}
+
+#navbar li:hover ul {
+    display: block;
+}
+
+#navbar,
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#navbar {
+    height: 30px;
+
+    padding-left: 25px;
+    min-width:
+        470px;
+    position: relative;
+    width: 1000px;
+    left: 150px;
+    bottom: 100px;
+}
+
+#navbar li {
+    float: left;
+    position: relative;
+    height: 100%;
+}
+
+#navbar li a {
+    display: block;
+    padding: 6px;
+    width: 100px;
+    color: silver;
+    font-size: 20px;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+#navbar ul li {
+    float: none;
+}
+
+#navbar li:hover {
+    background-color: #f90;
+}
+
+#navbar ul li:hover {
+    background-color:yellow;
+}
+
+#text {
+    color: rgb(186, 176, 176);
+}
+
+#hi {
+    position: relative;
+    bottom: 110px;
+    left: 700px;
+    color: silver;
+    font-size: 20px;
+
+}
+
+#hi:hover {
+    color: grey;
+}
+
+.rrr {
+    height: 750px;
+    margin: 0px 0px 0px 60px;
+
+}
+
+.movie {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 700px;
+
+}
+
+.movie1 {
+    width: 600px;
+    height: 900px;
+    margin: 20px;
+    object-fit: cover;
+
+}
+
+
+
+.last {
+
+    height: 200px;
+    border: black solid;
+}
+
+.footer {
+    border: black solid;
+    height: 350px;
+    background-color: black;
+    position: relative;
+    top: 700px;
+}
+
+.media {
+    color: white;
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+    margin: 50px;
+    position: relative;
+    left: 300px;
+    border: solid black;
+
+}
+
+#insta:hover {
+    color: red;
+}
+
+#snapchat:hover {
+    color: yellow;
+}
+
+#twitter:hover {
+    color: rgb(30, 144, 255);
+}
+
+#facebook:hover {
+    color: rgb(30, 144, 255);
+}
+
+#footerimg {
+    border-radius: 100px;
+}
+</style>
+
+
+</head>
+
+<body>
+    <div class="navi">
+        <p id="box1"><img src="logoforwebsite.png"> </p>
+        <ul id="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a
+                    href="contactus.html?name=pawan&email=pawankumar36345%40gmail.com&subject=p&message=p#">Contact
+                    Me</a></li>
+            <li><a href="#">Genre</a>
+                <ul>
+                    <li><a href="action.html">Action</a></li>
+                    <li><a href="Thriller.html">Mystical Thriller</a></li>
+                    <li><a href="horror.html">Horror</a></li>
+                </ul>
+            </li>
+            <li><a href="aboutus.html">About Me</a></li>
+        </ul>
+        <a id="hi" href="websitesignup.html">Log In</a>
+        <a id="hi" class="signup" href="signup.html?name=pawan&email=pawan%40gmail.com&password=pawan&confirm-password=pawan6">Sign Up</a>
+    </div>
+    <div class="rrr">
+        <a href="actionwebsite.html"><img src="rrr.jpg"></a>
+    </div>
+    <div class="container">
+        <h3 id="text">What makes a great movie great?Is it that it has a great story? Great characters? Is it that the
+            cinematography is beautiful? Is it that each actor is giving a great performance? Is it that the soundtrack
+            is top notch? Well, the answer is -- yes. Yes to all of this. And I know, that doesn't really help if you're
+            actually trying to find out what elements make a movie great, because clearly -- something will be great if
+            everything about it is great.
+            However, Simon Cade of DSLRguide is helping to make the whole concept of what a "great" movie is a little
+            easier to understand by defining specific elements that can be found in the majority of history's most
+            revered films.</h3>
+    </div>
+    <div class="movies">
+        <a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film)"><img
+                src="harrypotter.jpg" class="movie2"></a>
+        <a href="https://en.wikipedia.org/wiki/The_Godfather"><img src="godfather.jpg" class="movie2"></a>
+        <a href="https://en.wikipedia.org/wiki/Spider-Man:_No_Way_Home"><img src="spiderman.jpg" class="movie2"></a>
+        <a href="https://en.wikipedia.org/wiki/Black_Panther:_Wakanda_Forever"><img src="blackpanther.jpg"
+                class="movie2"></a>
+        <a href="https://en.wikipedia.org/wiki/A_Man_Called_Otto"><img src="otto.jpg" class="movie2"></a>
+        <a href="https://en.wikipedia.org/wiki/M3GAN"><img src="megan.jpg" class="movie2"></a>
+    </div>
+    <div class="movie">
+        <a href="Thriller.html"><img src="tumbbad.jpg" class="movie1"></a>
+        <a href="Thriller.html"><img src="kantara.jpg" class="movie1"></a>
+        <a href="action.html"><img src="bahubali2.jpg" class="movie1"></a>
+        <a href="action.html"><img src="bahubali.jpg" class="movie1"></a>
+    </div>
+    <div class="footer">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <a class="media" id="insta" href="https://www.instagram.com/thisispawankumar/"><ion-icon class="social"
+                name="logo-instagram"></ion-icon></a>
+        <a class="media" id="snapchat" href=""><ion-icon class="social "name="logo-snapchat"></ion-icon></a>
+        <a class="media" id="twitter" href="https://twitter.com/DarkPho16083357?t=04jQWxNEmV90RbF_8ARZ4g&s=08"><ion-icon class="social" name="logo-twitter"></ion-icon></a>
+        <a class="media" id="facebook" href="https://www.facebook.com/profile.php?id=100086759709511&mibextid=ZbWKwL"><ion-icon class="social" name="logo-facebook"></ion-icon></a>
+        <center><img id="footerimg" src="logoforwebsite.png"></center>
+    </div>
